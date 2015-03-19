@@ -1,7 +1,7 @@
 
 ;----------// Theme info
 
-  name        = Pixture Reloaded
+  name        = New Tapas Subtheme
   description = Pixture Reloaded is a recolorable, multi-column theme that supports both liquid and fixed width layouts. This is a subtheme - you must first download and install <a href="http://drupal.org/project/adaptivetheme">Adaptivetheme 7.x-3.x</a>. Once you have everything installed visit the settings page to change the colors, layout (width, sidebar widths, sidebar layout etc), fonts, rounded corners and many other settings. This theme also fully supports the <a href="http://drupal.org/project/noggin">Noggin</a> and <a href="http://drupal.org/project/superfish">Superfish</a> modules and includes special theme settings to help configure Noggin header images - note that you must first install the Noggin module to see these settings.
   core        = 7.x
   release     = 7.x-3.x
@@ -199,7 +199,7 @@
   settings[bigscreen_six_6x16]          = 'six-6x16-3x2-grid'
   settings[bigscreen_three_inset_left]  = 'three-inset-left'
   settings[bigscreen_three_inset_right] = 'three-inset-right'
-  
+
 
   ; Responsive Panels - Tablet landscape
   settings[tablet_landscape_two_50]            = 'two-50'
@@ -438,4 +438,3 @@ version = "7.x-3.0"
 core = "7.x"
 project = "new_tapas_sub"
 datestamp = "1395577169"
-
