@@ -48,6 +48,10 @@
   ;
   ; ie_scripts[lte IE 8] = js/my-script.js
 
+  ie_stylesheets[screen][lte IE 8][] = css/ie8.css
+  ie_stylesheets[screen][lte IE 7][] = css/ie7.css
+  ie_stylesheets[screen][lte IE 6][] = css/ie6.css
+
 
 
 ;----------// Regions
