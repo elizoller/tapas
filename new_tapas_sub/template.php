@@ -73,3 +73,24 @@ function new_tapas_sub_preprocess_block(&$vars) {
     $vars['content_attributes_array']['class'][] = 'clearfix';
   }
 }
+
+
+/*THESE ARE COPIES OF THE OLD FUNCTIONS FROM TAPAS_BASE IN CASE WE NEED THEM*/
+//ADDED method from http://www.alisonhover.com/blog/201208/how-customise-default-file-icons-drupal-7 to have custom file icons
+//function tapas_base_file_icon($variables) {
+  //$file = $variables['file'];
+  //$icon_directory = drupal_get_path('theme', 'tapas_base') . '/images/icons';
+//exit(print_r($icon_directory));
+  //$mime = check_plain($file->filemime);
+  //$icon_url = file_icon_url($file, $icon_directory);
+  //return '<img alt="" class="file-icon" src="' . $icon_url . '" title="' . $mime . '" />';
+//}
+//END
+// Add some cool text to the search block form
+//function tapas_base_form_alter(&$form, &$form_state, $form_id) {
+  //if ($form_id == 'search_block_form') {
+    // HTML5 placeholder attribute
+    //$form['search_block_form']['#attributes']['placeholder'] = t('Search TAPAS');
+  //}
+//}
+/*END COPIES OF OLD FUNCTIONS FROM TAPAS_BASE*/
