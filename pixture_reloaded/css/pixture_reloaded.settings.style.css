@@ -367,15 +367,15 @@ div.admin-panel,
 }
 /* IE6/7 */
 .ie6-7 .mbp-c #menu-bar .menu-wrapper  ul {
-  float: left;
-  position: relative;
-  left: 50%;
+	float: left;
+	position: relative;
+	left: 50%;
 }
 .ie6-7 .mbp-c #menu-bar .menu-wrapper  .sf-menu ul li {
-  left: 0;
+	left: 0;
 }
 .ie6-7 .mbp-c #menu-bar .menu-wrapper  .sf-menu li {
-  left: -50%;
+	left: -50%;
 }
 /* Right */
 .mbp-r #menu-bar .menu-wrapper {
