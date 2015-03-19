@@ -14,8 +14,8 @@
 ;----------// CSS
 
   stylesheets[all][] = color/colors.css
-  stylesheets[all][] = css/pixture_reloaded.css
-  stylesheets[all][] = css/pixture_reloaded.settings.style.css
+  stylesheets[all][] = css/new_tapas_sub.css
+  stylesheets[all][] = css/new_tapas_sub.settings.style.css
 
   ; Internet Explorer Stylesheets
   ;
@@ -436,6 +436,6 @@
 ; Information added by Drupal.org packaging script on 2014-03-23
 version = "7.x-3.0"
 core = "7.x"
-project = "pixture_reloaded"
+project = "new_tapas_sub"
 datestamp = "1395577169"
 
