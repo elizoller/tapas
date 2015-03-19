@@ -1,19 +1,3 @@
-Place downloaded and custom themes that modify your site's appearance in this
-directory to ensure clean separation from Drupal core and to facilitate safe,
-self-contained code updates. Contributed themes from the Drupal community may
-be downloaded at http://drupal.org/project/themes.
-
-It is safe to organize themes into subdirectories and is recommended to use
-Drupal's sub-theme functionality to ensure easy maintenance and upgrades.
-
-In multisite configuration, themes found in this directory are available to
-all sites. Alternatively, the sites/your_site_name/themes directory pattern may
-be used to restrict themes to a specific site instance.
-
-Refer to the "Appearance" section of the README.txt in the Drupal root
-directory for further information on theming.
-
-
 INFO ABOUT TAPAS THEMING
 
 Adaptivetheme must be enabled prior to Tapas_base being enabled.
@@ -30,4 +14,19 @@ Speaking of templates, the templates directory at the on set is what comes out o
 
 In the template.php file, the only changes that had been made to the original tapas base theme was the addition of two functions. I added these functions and commented them out at the bottom of the file in case we were wondering what used to happen with this file and in case the functionality needs to be recreated elsewhere. I believe this is where the images/icons directory was coming into play.
 
-The other file in the this repo is the oldtheme.txt file. This is a snippet from the original database in the system table for the row where filename = sites/all/themes/tapas_base/tapas_base.info in the field 'info'.
+
+/*Default drupal info below*/
+Place downloaded and custom themes that modify your site's appearance in this
+directory to ensure clean separation from Drupal core and to facilitate safe,
+self-contained code updates. Contributed themes from the Drupal community may
+be downloaded at http://drupal.org/project/themes.
+
+It is safe to organize themes into subdirectories and is recommended to use
+Drupal's sub-theme functionality to ensure easy maintenance and upgrades.
+
+In multisite configuration, themes found in this directory are available to
+all sites. Alternatively, the sites/your_site_name/themes directory pattern may
+be used to restrict themes to a specific site instance.
+
+Refer to the "Appearance" section of the README.txt in the Drupal root
+directory for further information on theming.
