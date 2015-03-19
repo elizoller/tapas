@@ -48,54 +48,6 @@
   margin: 15px auto 0;
   text-align: center;
 }
-/* Left */
-.hl-l #branding {
-  float: left;
-  margin: 0 20px;
-}
-.hl-l .region-header {
-  float: right;
-  margin: 0 10px;
-}
-.hl-l .region-header .block {
-  display: inline;
-  clear: none;
-  margin-bottom: 0;
-}
-.hl-l #logo {
-  padding: 0 20px 7px 3px;
-}
-
-/* Right */
-.hl-r #branding {
-  float: right;
-  margin: 0 20px;
-}
-.hl-r .region-header {
-  float: left;
-  margin: 0 10px;
-}
-.hl-r .region-header .block {
-  display: inline;
-  clear: none;
-  margin-bottom: 0;
-}
-.hl-r #logo {
-  padding: 0 3px 7px 20px;
-}
-
-/* Centered */
-.hl-c #branding {
-  float: none;
-  margin: auto;
-  text-align: center;
-}
-.hl-c .region-header {
-  display: table;
-  float: none;
-  margin: 15px auto 0;
-  text-align: center;
-}
 .hl-c .region-header .block {
   margin: auto;
   display: inline;
