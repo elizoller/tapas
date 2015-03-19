@@ -4,10 +4,10 @@
 /**
  * Override or insert variables into the html template.
  */
-function pixture_reloaded_preprocess_html(&$vars) {
+function new_tapas_sub_preprocess_html(&$vars) {
   global $theme_key;
 
-  $theme_name = 'pixture_reloaded';
+  $theme_name = 'new_tapas_sub';
   $path_to_theme = drupal_get_path('theme', $theme_name);
 
   // Add a class for the active color scheme
@@ -48,7 +48,7 @@ function pixture_reloaded_preprocess_html(&$vars) {
 /**
  * Override or insert variables into the html template.
  */
-function pixture_reloaded_process_html(&$vars) {
+function new_tapas_sub_process_html(&$vars) {
   // Hook into color.module
   if (module_exists('color')) {
     _color_html_alter($vars);
@@ -58,7 +58,7 @@ function pixture_reloaded_process_html(&$vars) {
 /**
  * Override or insert variables into the page template.
  */
-function pixture_reloaded_process_page(&$vars) {
+function new_tapas_sub_process_page(&$vars) {
   // Hook into color.module
   if (module_exists('color')) {
     _color_page_alter($vars);
@@ -68,7 +68,7 @@ function pixture_reloaded_process_page(&$vars) {
 /**
  * Override or insert variables into the block template.
  */
-function pixture_reloaded_preprocess_block(&$vars) {
+function new_tapas_sub_preprocess_block(&$vars) {
   if($vars['block']->module == 'superfish' || $vars['block']->module == 'nice_menu') {
     $vars['content_attributes_array']['class'][] = 'clearfix';
   }
