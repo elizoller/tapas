@@ -23,7 +23,7 @@ Install as usual, see http://drupal.org/node/70151 for further information.
 
 * Theme settings and layout: Pixture Reloaded includes lots of theme settings including
   the ability to change the layout and support for mobile devices. Visit the
-  theme settings page admin/appearance/settings/new_tapas_sub to configure your settings.
+  theme settings page admin/appearance/settings/tapas_base to configure your settings.
   You can change the layout, font, font size, heading styles and much more.
   In due course we will write documentation pages about each block of settings.
   
@@ -31,16 +31,16 @@ Install as usual, see http://drupal.org/node/70151 for further information.
   http://adaptivethemes.com/documentation/layout-settings-guide
 
 * Color options: Enable the theme at admin/appearance, and visit
-  admin/appearance/settings/new_tapas_sub to modify the color scheme if desired.
+  admin/appearance/settings/tapas_base to modify the color scheme if desired.
 
-* Menus: The new_tapas_sub theme does not support the hard coded menu defaults. To setup
+* Menus: The tapas_base theme does not support the hard coded menu defaults. To setup
   your main navigation menu, place the block containing the menu you want in the
   "Menu Bar" region.
 
 
 -- SUPERFISH DROP MENUS --
 
-new_tapas_sub supports the Superfish module which is a dynamic menu module and enables 
+tapas_base supports the Superfish module which is a dynamic menu module and enables 
 drop menus and other styles. First configure the Superfish menu to use the "none" 
 style and then place the menu in the "Menu Bar" region. Superfish installation
 instructions and downloads can be found on the Superfish menu project page:
@@ -59,7 +59,7 @@ http://adaptivethemes.com/documentation/footheme-starter-coloarble-sub-theme-for
 
 Issues and problems please post to:
 
-http://drupal.org/project/issues/new_tapas_sub
+http://drupal.org/project/issues/tapas_base
 
 Current maintainer:
 * Jeff Burnz (Jeff Burnz) - http://drupal.org/user/61393

@@ -14,7 +14,7 @@ if (module_exists('noggin')) {
  * @param $form_state
  *   A keyed array containing the current state of the form.
  */
-function new_tapas_sub_form_system_theme_settings_alter(&$form, &$form_state) {
+function tapas_base_form_system_theme_settings_alter(&$form, &$form_state) {
 
   // Include a hidden form field with the current release information
   $form['at-release'] = array(
